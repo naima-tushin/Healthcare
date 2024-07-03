@@ -128,5 +128,58 @@ body {
     margin-top: 1rem;
 }
 
- 
-  
+.section-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* Adjust alignment */
+    padding: 50px 0;
+    /* Adjust padding */
+    width: 1160px;
+    /* Adjust width */
+    margin: auto;
+}
+
+.left-column {
+    width: 45%;
+}
+
+.right-column {
+    position: relative;
+}
+
+.image-container {
+    position: relative;
+}
+
+.banner2 {
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    background-color: rgb(52, 50, 104);
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+    width: 395px;
+    height: 210px;
+}
+
+.banner3{
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    background-color: rgb(2, 0, 67, 0.6);
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+    width: 395px;
+    height: 210px;
+}
+.banner2 h3 {
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+}
+
+.banner2 p {
+    font-size: 0.9rem;
+}
