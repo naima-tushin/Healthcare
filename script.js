@@ -11,7 +11,6 @@ function toggleFAQ(element) {
 }
 
 
-
 let currentSlideIndex = 0;
 
 function currentSlide(n) {
@@ -33,5 +32,17 @@ function updateSlide() {
 document.addEventListener('DOMContentLoaded', () => {
   const dots = document.querySelectorAll('.dot');
   dots[currentSlideIndex].classList.add('active');
+});
+
+
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+
+    hamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+    });
 });
 

@@ -5,9 +5,9 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Inter', sans-serif;
 }
-
+/* Navbar Starts */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -18,8 +18,8 @@ body {
 }
 
 .logo img {
-    width: 124.82px;
-    height: 32.99px;
+    width: 120px;
+    height: 32px;
 }
 
 .nav-links {
@@ -30,12 +30,12 @@ body {
 
 .nav-links li a {
     text-decoration: none;
-    color: black;
-    font-weight: bold;
+    color: rgb(2, 0, 67);
+    font-weight: 400;
 }
 
 .appointment-btn a {
-    color: black;
+    color: rgb(2, 0, 67);
     padding: 0.5rem 1rem;
     border: 1px solid black;
     border-radius: 5px;
@@ -43,14 +43,17 @@ body {
     display: flex;
     align-items: center;
     gap: 0.5rem;
+    font-weight: 500;
 }
 
 .fa-arrow-up {
     transition: transform 0.3s;
     transform: rotate(45.00deg);
 }
-
+/* Navbar Ends */
+/* Banner Starts */
 .banner {
+    position: relative;
     width: 1160px;
     margin: auto;
     height: auto;
@@ -62,6 +65,19 @@ body {
     height: auto;
     display: block;
 }
+
+.banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(179.57deg, rgba(0, 193, 157, 0) -25.412%, rgba(2, 0, 67, 0.47) 107.111%);
+    z-index: 1; 
+    border-radius: 48px;
+}
+/* Banner Ends */
 
 .section {
     display: flex;
