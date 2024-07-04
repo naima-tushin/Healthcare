@@ -408,14 +408,14 @@ body {
     margin: 10px;
 }
 
-.testimonial-card h3{
+.testimonial-card h3 {
     font-size: 19px;
     font-weight: 600;
     line-height: 28.5px;
     margin-bottom: 10px;
 }
 
-.testimonial-card p{
+.testimonial-card p {
     color: rgb(77, 76, 123);
     font-size: 14px;
     line-height: 22px;
@@ -455,29 +455,29 @@ body {
 }
 
 .dot.active {
-    background-color: #007bff;
+    background-color: #ffcc00;
 }
-/* Testimonial Section Ends */
 
-.faq-container {
+/* Testimonial Section Ends */
+/* FAQ Section Starts */
+.FAQ {
     width: 1160px;
     margin: auto;
-    background: #fff;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 100px;
 }
 
-h1 {
-    text-align: center;
+.FAQ h1 {
+    border: 1px solid rgb(52, 50, 104);
+    border-radius: 25px;
+    padding: 10px 24px;
+    width: 80px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.FAQ h2 {
     margin-bottom: 20px;
-}
-
-.faq {
-    border-top: 1px solid #ddd;
-}
-
-.faq-item {
-    border-bottom: 1px solid #ddd;
 }
 
 .faq-question {
@@ -485,11 +485,7 @@ h1 {
     justify-content: space-between;
     padding: 15px 20px;
     cursor: pointer;
-    background: #f9f9f9;
-}
-
-.faq-question:hover {
-    background: #f1f1f1;
+    background: rgb(255, 255, 245);
 }
 
 .faq-answer {
@@ -510,17 +506,16 @@ h1 {
     display: block;
 }
 
+/* FAQ Section Ends */
+/* First Appointment Banner Section Starts */
 .appointment-section {
     width: 1160px;
     margin: auto;
+    margin-bottom: 100px;
     position: relative;
     background-image: url('assets/images/Rectangle\ 32.png');
-    /* Replace with your image URL */
-    background-size: cover;
-    background-position: center;
     height: 470px;
-    /* Adjust as needed */
-    border-radius: 8px;
+    border-radius: 32px;
     overflow: hidden;
 }
 
@@ -530,26 +525,26 @@ h1 {
     left: 0;
     width: 100%;
     height: 100%;
-    background: radial-gradient(647.71% 142.52% at 98% 78%, rgb(2, 0, 67), rgba(2, 0, 67, 0.3) 100%);
+    background: radial-gradient(700.71% 150.52% at 98% 100%, rgb(2, 0, 67), rgba(2, 0, 67, 0.1) 100%);
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 20px;
+    padding: 70px;
     color: white;
 }
 
 .appointment-logo {
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 60px;
+    right: 60px;
     width: 100px;
-    /* Adjust as needed */
 }
 
 .appointment-title {
-    font-size: 2.5em;
-    /* Adjust as needed */
+    font-size: 40px;
+    width: 530px;
     margin-bottom: 20px;
+    line-height: 60px;
 }
 
 .appointment-btn {
@@ -557,23 +552,23 @@ h1 {
     gap: 20px;
 }
 
-.appointment-button {
-    padding: 10px 20px;
-    font-size: 1em;
-    background-color: #004aad;
-    /* Adjust as needed */
-    color: white;
+.appointment-btn .appointment-button {
+    padding: 12px 16px 12px 24px;
+    font-size: 16px;
+    background-color: #ffcc00;
     border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    text-decoration: none;
+    border-radius: 12px;
 }
 
-.appointment-button:hover {
-    background-color: #003080;
-    /* Adjust as needed */
+.appointment-btn .appointment-button2 {
+    padding: 12px 16px 12px 24px;
+    border-radius: 12px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 16px;
 }
-
+/* First Appointment Banner Section Ends */
+/* Footer Section Starts */
 footer {
     background-color: rgb(2, 0, 67);
     color: #fff;
@@ -634,3 +629,4 @@ footer {
 .social-links li:last-child {
     margin-right: 0;
 }
+/* Footer Section Ends */
