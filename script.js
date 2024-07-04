@@ -36,17 +36,17 @@ function toggleFAQ(element) {
     });
     allArrows.forEach(arrowElem => {
         if (arrowElem !== arrow) {
-            arrowElem.innerHTML = '&#9660;';
+            arrowElem.innerHTML = '&#9661;';
         }
     });
 
     // Toggle the selected FAQ answer
     if (faqAnswer.classList.contains('visible')) {
         faqAnswer.classList.remove('visible');
-        arrow.innerHTML = '&#9660;';
+        arrow.innerHTML = '&#9661;';
     } else {
         faqAnswer.classList.add('visible');
-        arrow.innerHTML = '&#9650;';
+        arrow.innerHTML = '&#9651;';
     }
 }
 // FAQ Section Ends
